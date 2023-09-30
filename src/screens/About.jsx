@@ -5,7 +5,9 @@ export default class About extends Component {
   render() {
     return  (
       <>
-        <h1>asd1</h1>
+        <main className="container" style={{ marginTop: 30 }}>
+          <h2>Conheçam um pouco sobre o nosso projeto</h2>
+        </main>
       </>
     )
   }
