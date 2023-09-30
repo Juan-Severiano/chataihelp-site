@@ -1,0 +1,29 @@
+* {
+    color: #f0f0f0!important;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: #121212;
+}
+
+.header img.logo {
+    max-width: 400px;
+    margin: 20px;
+}
+
+ul.nav-bar {
+    justify-content: flex-end;
+}
+
+ul.nav-bar li {
+    margin: 10px;
+    padding: 20px;
+    font-weight: 500;
+    color: #c9c9c9!important;
+}
+
+ul.nav-bar li:hover {
+    cursor: pointer;
+    color: aliceblue!important;
+}
