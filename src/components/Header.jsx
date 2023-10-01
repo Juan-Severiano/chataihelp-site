@@ -15,7 +15,7 @@ export default class Header extends Component {
                       <Link className="nav-link" to='/info'>Informações</Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" to='/download'>Download</Link>
+                      <a className="nav-link" href="/download/chataihelp.apk" download='chataihelp.apk'>Download</a>
                     </li>
                   </ul>
                 </header>
