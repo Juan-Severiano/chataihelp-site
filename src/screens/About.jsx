@@ -8,8 +8,6 @@ export default class About extends Component {
     return  (
       <>
         <main className="container" style={{ marginTop: 30, marginBottom: 20 }}>
-
-
           <h2 style={{ marginTop: 30, marginBottom: 20 }}>Conheçam um pouco sobre o nosso projeto</h2>
           <hr />
           <InfoImgs />

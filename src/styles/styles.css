@@ -34,6 +34,8 @@ ul.nav-bar .nav-link:hover {
 }
 
 .info {
+  display: flex;
+  align-items: center;
   flex-direction: row;
   padding: 10px;
   font-size: 15px;
@@ -197,7 +199,7 @@ ul.nav-info {
   border-radius: 20px;
   font-size: 30px;
   z-index: 2;
-  top: 20px; 
+  bottom: 20px; 
   left: 20px; 
 }
 
@@ -219,4 +221,50 @@ ul.nav-info li:hover {
 
 .code-image {
   max-width: 1000px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .info {
+    display: flex;
+    flex-direction: column!important;
+  }
+
+  .info img {
+    max-width: 200px;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } .welcome, .carousel {
+    width: 90%;
+    margin: 10px;
+  }
+  .welcome {
+    flex-direction: column;
+  }
+
+  .intro-content, .grid {
+    grid-template-columns: 1fr;
+}
+  .grid-one-content {
+    display: block;
+  }
+  
+  #code img {
+    max-width: 300px;
+  }
+
+  .video {
+    display: none;
+  }
+  .container h2 {
+    font-size: 20px;
+    max-width: 250px;
+  }
+
+  ul.nav-info {
+  }
 }
