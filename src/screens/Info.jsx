@@ -8,12 +8,11 @@ export default class Info extends Component {
     return  (
       <>
             <ul className="nav navbar nav-info">
-              <li className="nav-item"><a href="#gallery"><i class="bi bi-images"></i></a></li>
-              <li className="nav-item"><a href="#code"><i class="bi bi-code-slash"></i></a></li>
+              <li className="nav-item"><a href="#gallery"><i className="bi bi-images"></i></a></li>
+              <li className="nav-item"><a href="#code"><i className="bi bi-code-slash"></i></a></li>
             </ul>
          <Gallery />
-         <Code />
-          
+         <Code />   
       </>
     )
   }
