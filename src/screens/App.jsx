@@ -19,7 +19,7 @@ export default class App extends Component {
             <h1 className="title-home">SEJAM BEM VINDOS</h1>
             <h2>Faça download do nosso app e conheça nosso projeto</h2>
             <a
-              href="https://expo.dev/artifacts/eas/ig11EbZWuzi6sQf5Vj457X.apk"
+              href="/app@latest.apk"
               download
               className="text-uppercase btn mt-5 w-25 fw-semibold"
               style={{ backgroundColor: "#fd64c2" }}
